@@ -3,14 +3,14 @@
 
 # disable file duplicate packaging error
 %define		_duplicate_files_terminate_build   0
-%define		bld_ver	28
-%define		bhash	55eed80b163941c8885ad9298e6d786a
+%define		bld_ver	13
+%define		bhash	90cf5d8f270a4347a95050320eef3fb7
 # class data version seen with file(1) that this jvm is able to load
 %define		_classdataversion 55.0
 Summary:	Oracle JDK (Java Development Kit) for Linux
 Summary(pl.UTF-8):	Oracle JDK - środowisko programistyczne Javy dla Linuksa
 Name:		oracle-java11
-Version:	11
+Version:	11.0.1
 Release:	1
 License:	restricted, distributable
 # http://www.oracle.com/technetwork/java/javase/terms/license/index.html
@@ -21,7 +21,7 @@ Group:		Development/Languages/Java
 # http://www.oracle.com/technetwork/java/javase/downloads/index.html
 # Use get-source.sh script to download locally.
 Source0:	http://download.oracle.com/otn-pub/java/jdk/%{version}+%{bld_ver}/%{bhash}/jdk-%{version}_linux-x64_bin.tar.gz
-# NoSource0-md5:	cec78419464fb26bb6d8c45a09e4c86d
+# NoSource0-md5:	9609ee7a66a7985ce755ced51bc6308f
 NoSource:	0
 Source1:	Test.java
 URL:		http://www.oracle.com/technetwork/java/javase/overview/index.html
